@@ -6,14 +6,8 @@ var Weather = require('Weather');
 var About = require('About');
 var Examples = require('Examples');
 
-// ES5.
-//var Route = require('react-router').Route;
-
-// ES6 object destructuring
-//var obj = {
-//  name = 'Dino'
-//};
-//var {name} = obj;
+require('style!css!foundation-sites/dist/foundation.min.css')
+$(document).foundation();
 
 ReactDOM.render(
   <Router history={hashHistory}>
